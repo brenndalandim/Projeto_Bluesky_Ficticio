@@ -14,7 +14,7 @@ Você foi contratada para construir uma aplicação ReactJS composta de vários 
 - Opção de escolha entre light mode e dark mode.
 
 ## Uso
-Para usar a aplicação, basta acessar o projeto através do link. Navegue pela interface para explorar as funcionalidades, interagir com usuários, posts e gerenciar comentários.
+Para usar a aplicação, basta acessar o projeto através do [link](https://projeto-bluesky-ficticio.vercel.app/). Navegue pela interface para explorar as funcionalidades, interagir com usuários, posts e gerenciar comentários.
 
 ## Usos externos
 - Bootstrap Icons
