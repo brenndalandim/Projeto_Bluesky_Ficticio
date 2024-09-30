@@ -1,0 +1,91 @@
+.containerUsuario {
+  position: relative;
+  border: 1px solid var(--border-color);
+}
+
+.containerUsuario .bannerUser {
+  background-color: #208bfe;
+  width: 100%;
+  height: 100px;
+}
+
+.containerUsuario .buttons {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  z-index: 2;
+  position: relative;
+  color: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.containerUsuario .follow {
+  background-color: #208bfe;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #4ca2fe;
+  }
+}
+
+.containerUsuario .buttons .more {
+  background-color: #1e2936;
+  color: inherit;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-weight: 800;
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #263544;
+  }
+}
+
+.containerUsuario .user {
+  align-items: flex-start;
+  margin-top: -90px;
+  border: none;
+}
+
+.containerUsuario .user .profilePicture {
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 70px;
+}
+
+.barreira {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.containerUsuario span {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.containerUsuarios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 424px) {
+  .containerUsuarios {
+    grid-template-columns: 1fr !important;
+  }
+}
